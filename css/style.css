@@ -6,7 +6,7 @@
 
 body {
     /* font-family: 'PT Serif', serif; */
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 140%;
     font-weight: 400;
@@ -304,4 +304,191 @@ a {
 
 .slick-prev {
     right: 60px;
+}
+
+.tour {
+    padding: 100px 0;
+}
+
+.tour__title {
+    margin-bottom: 77px;
+}
+
+.tour__box {   
+    column-count: 2;
+    column-gap: 46px;
+    border-bottom: 1px solid #D9D9DE;
+    margin-bottom: 44px;
+    padding-bottom: 50px;
+}
+
+.tour__text {
+    margin-bottom: 15px;
+}
+
+.tour__text span{
+    font-weight: 700;
+}
+
+.tour__info {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 70px;
+}
+.tour__info-item {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 60px;
+    color: #886239;
+    text-align: center;
+}
+.tour__info-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1F1E1E;
+    line-height: 25px;
+}
+
+.booking {
+    background-color: #EAEAEA;
+    padding: 75px 0;
+}
+
+.booking__title {
+    margin-bottom: 43px;
+}
+
+.booking__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.booking__input {
+    width: 256px;
+    height: 44px;
+    border: 1px solid #D9D9DE;
+    padding: 11px 14px 12px;
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+
+.booking__input::placeholder,
+.booking__area::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #C4C4C4;
+
+}   
+
+.booking__area {
+    width: 100%;
+    padding: 14px;
+    height: 112px;
+    border: 1px solid #D9D9DE;
+    resize: none;
+    margin-bottom: 67px;
+}
+.booking__btn {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background: #886239;
+    border-radius: 30px;
+    padding: 19px 65px 20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+}
+.booking__label {
+    align-items: center;
+}
+
+.booking__label span {
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration-line: underline;
+}
+
+.booking__checkbox {
+    position: absolute;
+    width: 1px;
+    height: 1p;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.booking__checkbox-style {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #C4C4C4;
+    border-radius: 2px;
+    margin-left: -45px;
+}
+
+.booking__checkbox:checked + .booking__checkbox-style::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #C4C4C4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.footer {
+    background-color: #1F1E1E;
+    padding: 80px 0;
+}
+
+.footer__logo {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 130%; 
+    max-width: 830px;
+    margin: 0 auto;
+    color: rgba(225, 255, 255, .8);
+}
+
+.footer__info {
+    width: 225px;
+}
+
+.footer__box-title {
+    margin-bottom: 7px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer__copu {
+    margin-bottom: 3px;
+}
+
+.footer__link {
+    text-decoration: underline;
+}
+
+.footer__address {
+    width: 165px;
+}
+
+.footer__contacts {
+    width: 210px;
+}
+
+.footer__mail {
+    display: block;
 }
