@@ -86,6 +86,10 @@ a {
     color: #fff;
 } 
 
+.menu__btn {
+    display: none
+}
+
 .header__title {
     font-family: 'PT Serif', serif;
     font-weight: 700;
@@ -99,7 +103,7 @@ a {
 }
 .header__descr {
     font-weight: 700;
-    width: 422px;
+    max-width: 422px;
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -286,6 +290,7 @@ a {
     font-size: 16px;
     line-height: 19px;
     text-decoration: underline;
+    cursor: pointer;
 }
 .gallery__item-inner {
     display: grid;
@@ -307,7 +312,7 @@ a {
 }
 
 .tour {
-    padding: 100px 0;
+    margin: 100px 0;
 }
 
 .tour__title {
@@ -333,7 +338,7 @@ a {
 .tour__info {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 70px;
+    grid-gap: 60px;
 }
 .tour__info-item {
     font-family: 'PT Serif', serif;
